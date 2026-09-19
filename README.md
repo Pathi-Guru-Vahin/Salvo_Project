@@ -463,17 +463,17 @@ Generate Recommendations
 
 # Project Features
 
-* + JSON-based student dataset
-* + Multiple Linear Regression
-* + Train-test data splitting
-* + Model evaluation using MAE
-* + Model evaluation using MSE
-* + Model evaluation using R²
-* + Automatic regression equation generation
-* + Student Final Score prediction
-* + Student support-level identification
-* + Personalized academic recommendations
-* + Simple command-line interface
+* JSON-based student dataset
+* Multiple Linear Regression
+* Train-test data splitting
+* Model evaluation using MAE
+* Model evaluation using MSE
+* Model evaluation using R²
+* Automatic regression equation generation
+* Student Final Score prediction
+* Student support-level identification
+* Personalized academic recommendations
+* Simple command-line interface
 
 ---
 
@@ -481,18 +481,18 @@ Generate Recommendations
 
 The project can be extended with:
 
-* [ ] Graphical User Interface (GUI)
-* [ ] Web-based interface
-* [ ] Data visualization
-* [ ] Feature importance visualization
-* [ ] Comparison with other ML models
-* [ ] Random Forest Regression
-* [ ] XGBoost Regression
-* [ ] Improved support-level methodology
-* [ ] More student-related features
-* [ ] Database integration
-* [ ] Model saving and loading
-* [ ] Automatic report generation
+* Graphical User Interface (GUI)
+* Web-based interface
+* Data visualization
+* Feature importance visualization
+* Comparison with other ML models
+* Random Forest Regression
+* XGBoost Regression
+* Improved support-level methodology
+* More student-related features
+* Database integration
+* Model saving and loading
+* Automatic report generation
 
 ---
 
