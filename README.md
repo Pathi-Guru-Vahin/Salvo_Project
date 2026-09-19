@@ -1,5 +1,5 @@
 # Salvo_Project
-# 📊 Student Performance Prediction using Linear Regression
+# Student Performance Prediction using Linear Regression
 
 A Machine Learning project that predicts a student's **Final Score** using academic and lifestyle factors such as study hours, attendance, previous marks, assignment scores, and sleep hours.
 
@@ -7,7 +7,7 @@ The project also identifies the student's **required support level** and provide
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The goal of this project is to use **Linear Regression** to predict a student's final academic performance.
 
@@ -33,7 +33,7 @@ It then:
 
 ---
 
-## 🤖 Machine Learning Model
+##  Machine Learning Model
 
 This project uses **Multiple Linear Regression**.
 
@@ -52,7 +52,7 @@ The coefficients (`c1`, `c2`, etc.) are learned automatically from the dataset.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Student-Performance-Prediction/
@@ -72,7 +72,7 @@ Student-Performance-Prediction/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project uses a JSON dataset containing approximately **500 student records**.
 
@@ -94,7 +94,7 @@ The project uses a JSON dataset containing approximately **500 student records**
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 * **Python**
 * **Pandas**
@@ -116,7 +116,7 @@ from sklearn.metrics import r2_score
 
 ---
 
-## 🔄 How the Project Works
+## How the Project Works
 
 ### 1. Load the Dataset
 
@@ -219,7 +219,7 @@ An R² value closer to 1 indicates that the model explains more of the variation
 
 ---
 
-## 🧮 Model Equation
+## Model Equation
 
 After training, the program extracts the coefficients:
 
@@ -247,7 +247,7 @@ This makes the model easier to understand because the contribution of each featu
 
 ---
 
-# 🎯 Student Prediction
+# Student Prediction
 
 After training the model, the program asks the user to enter information about a student.
 
@@ -271,7 +271,7 @@ FinalScore : 76.42
 
 ---
 
-# 🆘 Student Support Level
+# Student Support Level
 
 The project also categorizes students according to their predicted Final Score.
 
@@ -299,7 +299,7 @@ This feature can help identify students who may need additional academic attenti
 
 ---
 
-# 💡 Student Recommendations
+# Student Recommendations
 
 The program generates recommendations based on the student's input.
 
@@ -367,7 +367,7 @@ Maintain current academic habits
 
 ---
 
-# 🧪 Example Output
+# Example Output
 
 ```text
 Model Evaluation
@@ -402,7 +402,7 @@ Support Level : LOW/NO SUPPORT
 
 ---
 
-# 🚀 Installation
+# Installation
 
 ## 1. Install Python
 
@@ -418,7 +418,7 @@ pip install pandas scikit-learn
 
 ---
 
-# ▶️ How to Run
+# How to Run
 
 Clone or download this repository.
 
@@ -461,19 +461,19 @@ Generate Recommendations
 
 ---
 
-# 📈 Project Features
+# Project Features
 
-* ✅ JSON-based student dataset
-* ✅ Multiple Linear Regression
-* ✅ Train-test data splitting
-* ✅ Model evaluation using MAE
-* ✅ Model evaluation using MSE
-* ✅ Model evaluation using R²
-* ✅ Automatic regression equation generation
-* ✅ Student Final Score prediction
-* ✅ Student support-level identification
-* ✅ Personalized academic recommendations
-* ✅ Simple command-line interface
+* + JSON-based student dataset
+* + Multiple Linear Regression
+* + Train-test data splitting
+* + Model evaluation using MAE
+* + Model evaluation using MSE
+* + Model evaluation using R²
+* + Automatic regression equation generation
+* + Student Final Score prediction
+* + Student support-level identification
+* + Personalized academic recommendations
+* + Simple command-line interface
 
 ---
 
@@ -496,7 +496,7 @@ The project can be extended with:
 
 ---
 
-# ⚠️ Limitations
+# Limitations
 
 This project is intended as an **educational Machine Learning project**.
 
@@ -506,7 +506,7 @@ The support categories are rule-based thresholds created for this project and ar
 
 ---
 
-# 🎓 Learning Objectives
+# Learning Objectives
 
 Through this project, the following concepts can be demonstrated:
 
@@ -523,7 +523,7 @@ Through this project, the following concepts can be demonstrated:
 
 ---
 
-## 👨‍💻 Project
+##  Project
 
 **Project:** Student Performance Prediction
 **Algorithm:** Multiple Linear Regression
