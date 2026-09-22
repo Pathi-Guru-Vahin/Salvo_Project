@@ -1,13 +1,10 @@
 # Salvo_Project
+
 # Student Performance Prediction using Linear Regression
 
 A Machine Learning project that predicts a student's **Final Score** using academic and lifestyle factors such as study hours, attendance, previous marks, assignment scores, and sleep hours.
 
 The project also identifies the student's **required support level** and provides **personalized recommendations** based on their input.
-
-## Why Linear Regression Was Chosen
-
-Linear Regression was chosen because the project predicts a continuous numerical value, the student's **Final Score**, using multiple factors such as Study Hours, Attendance, Previous Marks, Assignment Score, and Sleep Hours. It is also simple and easy to interpret, making it suitable for understanding the relationship between these factors and student performance.
 
 ---
 
@@ -37,7 +34,7 @@ It then:
 
 ---
 
-##  Machine Learning Model
+## Machine Learning Model
 
 This project uses **Multiple Linear Regression**.
 
@@ -53,6 +50,10 @@ FinalScore = c1 × StudyHours
 ```
 
 The coefficients (`c1`, `c2`, etc.) are learned automatically from the dataset.
+
+### Why Linear Regression Was Chosen
+
+Linear Regression was chosen because the project predicts a continuous numerical value, the student's **Final Score**, using multiple factors such as Study Hours, Attendance, Previous Marks, Assignment Score, and Sleep Hours. It is also simple and easy to interpret, making it suitable for understanding the relationship between these factors and student performance.
 
 ---
 
@@ -79,6 +80,8 @@ Student-Performance-Prediction/
 ## Dataset
 
 The project uses a JSON dataset containing approximately **500 student records**.
+
+The dataset is included directly in this GitHub repository.
 
 ### Input Features
 
@@ -130,8 +133,6 @@ The program reads the JSON dataset using Pandas:
 df = pd.read_json("student_performance_500_no_participation_no_NA.json")
 ```
 
----
-
 ### 2. Select Input and Output Variables
 
 The following five features are used as inputs:
@@ -150,8 +151,6 @@ The target variable is:
 FinalScore
 ```
 
----
-
 ### 3. Split the Dataset
 
 The dataset is divided into:
@@ -169,8 +168,6 @@ train_test_split(
 )
 ```
 
----
-
 ### 4. Train the Model
 
 A Linear Regression model is created:
@@ -185,13 +182,11 @@ The model is then trained using:
 model.fit(X_train, Y_train)
 ```
 
----
-
 ### 5. Evaluate the Model
 
 The model is evaluated using three metrics:
 
-### Mean Absolute Error (MAE)
+#### Mean Absolute Error (MAE)
 
 Measures the average absolute difference between the predicted and actual scores.
 
@@ -201,7 +196,7 @@ mae = mean_absolute_error(Y_test, model.predict(X_test))
 
 Lower MAE generally means smaller prediction errors.
 
-### Mean Squared Error (MSE)
+#### Mean Squared Error (MSE)
 
 Measures the average squared difference between predicted and actual values.
 
@@ -211,7 +206,7 @@ mse = mean_squared_error(Y_test, model.predict(X_test))
 
 Lower MSE indicates smaller prediction errors.
 
-### R² Score
+#### R² Score
 
 Measures how much of the variation in Final Score is explained by the model.
 
@@ -266,12 +261,6 @@ Enter the Sleep Hours of the Student : 7
 ```
 
 The program calculates the predicted Final Score using the learned regression equation.
-
-Example output:
-
-```text
-FinalScore : 76.42
-```
 
 ---
 
@@ -371,23 +360,20 @@ Maintain current academic habits
 
 ---
 
-# Example Output
+# Project Demo
+
+The following output demonstrates the working of the Machine Learning model, including model evaluation, the learned regression equation, student input, predicted Final Score, Support Level, and recommendation.
+
+### Sample Output
 
 ```text
 Model Evaluation
-
-Mean Absolute Error : 4.58
-Mean Squared Error : 31.95
-R² : 0.59
+Mean Absolute Error : 4.581935123240101
+Mean Squared Error : 31.953240107190233
+R² : 0.5945115179387143
 
 Model Equation :
-
-FinalScore = 2.75*StudyHours
-           + 0.22*Attendance
-           + 0.26*PreviousMarks
-           + 0.16*AssignmentScore
-           + 0.62*SleepHours
-           + 11.84
+FinalScore = 2.75*StudyHours + 0.22*Attendence + 0.26*PreviousMarks + 0.16*AssinmentScores + 0.62*SleepHours + 11.84
 
 Enter the Study Hours of the Student : 3
 Enter the Attendence of the Student for 100% : 80
@@ -395,14 +381,20 @@ Enter the Previous Marks of the Student out of 100 : 65
 Enter the Assignment Scores of the Student out of 100 : 70
 Enter the Sleep Hours of the Student : 7
 
-FinalScore : XX.XX
-
+FinalScore : 69.90258016902112
 Support Level : LOW/NO SUPPORT
-
 - Maintain current academic habits
 ```
 
-*The prediction will change depending on the values entered.*
+### Output Screenshot
+
+Add a screenshot of the actual program running here:
+
+```markdown
+![Project Output](output.png)
+```
+
+Place the screenshot file `output.png` in the same GitHub repository.
 
 ---
 
@@ -527,11 +519,10 @@ Through this project, the following concepts can be demonstrated:
 
 ---
 
-##  Project
+# Project
 
 **Project:** Student Performance Prediction
 **Algorithm:** Multiple Linear Regression
 **Language:** Python
 **Dataset:** Student Performance Dataset
 **Purpose:** Educational / Academic ML Project
-
