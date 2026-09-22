@@ -388,11 +388,7 @@ Support Level : LOW/NO SUPPORT
 
 ### Output Screenshot
 
-Add a screenshot of the actual program running here:
-
-```markdown
 ![Project Output](output.png)
-```
 
 ---
 
