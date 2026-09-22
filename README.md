@@ -394,8 +394,6 @@ Add a screenshot of the actual program running here:
 ![Project Output](output.png)
 ```
 
-Place the screenshot file `output.png` in the same GitHub repository.
-
 ---
 
 # Installation
@@ -470,25 +468,6 @@ Generate Recommendations
 * Student support-level identification
 * Personalized academic recommendations
 * Simple command-line interface
-
----
-
-# 🔮 Future Improvements
-
-The project can be extended with:
-
-* Graphical User Interface (GUI)
-* Web-based interface
-* Data visualization
-* Feature importance visualization
-* Comparison with other ML models
-* Random Forest Regression
-* XGBoost Regression
-* Improved support-level methodology
-* More student-related features
-* Database integration
-* Model saving and loading
-* Automatic report generation
 
 ---
 
