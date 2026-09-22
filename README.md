@@ -5,6 +5,10 @@ A Machine Learning project that predicts a student's **Final Score** using acade
 
 The project also identifies the student's **required support level** and provides **personalized recommendations** based on their input.
 
+## Why Linear Regression Was Chosen
+
+Linear Regression was chosen because the project predicts a continuous numerical value, the student's **Final Score**, using multiple factors such as Study Hours, Attendance, Previous Marks, Assignment Score, and Sleep Hours. It is also simple and easy to interpret, making it suitable for understanding the relationship between these factors and student performance.
+
 ---
 
 ## Project Overview
