@@ -477,23 +477,6 @@ The support categories are rule-based thresholds created for this project and ar
 
 ---
 
-# Learning Objectives
-
-Through this project, the following concepts can be demonstrated:
-
-1. Loading and processing JSON data using Pandas.
-2. Selecting features and target variables.
-3. Splitting data into training and testing sets.
-4. Training a Multiple Linear Regression model.
-5. Understanding regression coefficients.
-6. Evaluating an ML model.
-7. Making predictions using a trained model.
-8. Applying rule-based logic to ML predictions.
-9. Generating recommendations from student data.
-10. Understanding a basic end-to-end Machine Learning workflow.
-
----
-
 # Project
 
 **Project:** Student Performance Prediction
